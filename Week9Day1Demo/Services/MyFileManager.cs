@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
-using System.Web.UI.WebControls;
 
-namespace Week9Day1Demo
+namespace Week9Day1Demo.Services
 {
     public class MyFileManager
     {
