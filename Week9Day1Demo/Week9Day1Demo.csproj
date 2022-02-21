@@ -69,21 +69,30 @@
   <ItemGroup>
     <Content Include="files\File1.txt" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="WebFormAsyncDemo.aspx" />
+    <Content Include="WebFormGenericDemo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyFileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="WebFormAsyncDemo.aspx.cs">
+      <DependentUpon>WebFormAsyncDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="WebFormAsyncDemo.aspx.designer.cs">
+      <DependentUpon>WebFormAsyncDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormGenericDemo.aspx.cs">
+      <DependentUpon>WebFormGenericDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormGenericDemo.aspx.designer.cs">
+      <DependentUpon>WebFormGenericDemo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="documents\MultiThreading in C# With Async Await.pdf" />
+    <Content Include="documents\Generics in C#.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

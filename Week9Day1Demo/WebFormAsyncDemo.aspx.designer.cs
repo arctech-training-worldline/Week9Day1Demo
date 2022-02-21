@@ -11,7 +11,7 @@ namespace Week9Day1Demo
 {
 
 
-    public partial class WebForm1
+    public partial class WebFormAsyncDemo
     {
 
         /// <summary>

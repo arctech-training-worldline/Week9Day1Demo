@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace Week9Day1Demo
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebFormAsyncDemo : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

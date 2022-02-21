@@ -118,6 +118,7 @@ namespace Week9Day1Demo
 
         private async Task<string[]> GetLinesFromFileAsync()
         {
+            
             var lines = new StringCollection();
 
             using (var reader = new StreamReader(_filePath))
